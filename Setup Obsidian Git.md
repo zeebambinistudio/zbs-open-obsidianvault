@@ -44,7 +44,7 @@ Berikut adalah langkah _sat-set_ dari awal sampai catatanmu berhasil mengudara d
 Buka terminal-mu, arahkan langsung ke folder tempat _vault_ itu berada, dan mulai inisiasi:
 
 ```
-cd ~/Documents/Obsidian\ Vault
+cd Tempat_Obsidian_Vault_Berada
 git init
 ```
 
