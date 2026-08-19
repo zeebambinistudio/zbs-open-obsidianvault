@@ -41,7 +41,7 @@ Berikut adalah langkah _sat-set_ dari awal sampai catatanmu berhasil mengudara d
 7. Salin URL repositori yang muncul (contoh: `[https://github.com/username/obsidian-vault.git](https://github.com/username/obsidian-vault.git)`).
 ### 2. Inisiasi Git di Terminal Lokal
 
-Buka terminal openSUSE-mu, arahkan langsung ke folder tempat _vault_ itu berada, dan mulai inisiasi:
+Buka terminal-mu, arahkan langsung ke folder tempat _vault_ itu berada, dan mulai inisiasi:
 
 ```
 cd ~/Documents/Obsidian\ Vault
@@ -50,7 +50,7 @@ git init
 
 ### 3. Tambahkan Aturan `.gitignore` (Wajib untuk Obsidian)
 
-Sebagai _developer_, kamu pasti tahu pentingnya mengabaikan _file_ yang sering berubah tapi tidak penting. Di Obsidian, _file_ yang mengatur posisi tab dan _layout_ layar akan berubah setiap detik saat kamu menggunakan aplikasinya. Jika tidak diabaikan, _commit history_-mu akan dipenuhi sampah perubahan _layout_.
+Di Obsidian, _file_ yang mengatur posisi tab dan _layout_ layar akan berubah setiap detik saat kamu menggunakan aplikasinya. Jika tidak diabaikan, _commit history_-mu akan dipenuhi sampah perubahan _layout_.
   
 Jalankan perintah ini untuk membuat _file_ `.gitignore` yang memblokir _file_ _layout_ tersebut:
   
@@ -108,7 +108,7 @@ Berikut adalah cara mencari _username_ dan membuat _password_ (Token) tersebut (
 9. **PENTING:** Akan muncul deretan kode panjang (dimulai dengan `ghp_...`). **Salin kode tersebut sekarang juga!** Kode ini hanya akan ditampilkan satu kali seumur hidup.
 ### 3. Eksekusi di Terminal
 
-Kembali ke terminal openSUSE-mu dan jalankan ulang perintah `git push -u origin main`.
+Kembali ke terminal-mu dan jalankan ulang perintah `git push -u origin main`.
   
 - **Username:** Ketik _username_ yang kamu temukan di Langkah 1, lalu tekan Enter.
       
@@ -125,4 +125,4 @@ Setelah kamu berhasil melakukan _push_ pertama tadi, jalankan perintah ini di te
 git config --global credential.helper store
 ```
 
-Lalu lakukan `git push` satu kali lagi (secara manual). Git akan meminta _username_ dan token-mu untuk yang **terakhir kalinya**, lalu menyimpannya secara permanen di dalam sistem openSUSE-mu. Setelah itu, _plugin_ Obsidian Git bisa berjalan otomatis di latar belakang dengan mulus!
+Lalu lakukan `git push` satu kali lagi (secara manual). Git akan meminta _username_ dan token-mu untuk yang **terakhir kalinya**, lalu menyimpannya secara permanen di dalam sistem-mu. Setelah itu, _plugin_ Obsidian Git bisa berjalan otomatis di latar belakang dengan mulus!
